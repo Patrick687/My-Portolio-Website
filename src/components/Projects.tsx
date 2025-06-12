@@ -61,7 +61,7 @@ const Projects: React.FC = () => (
             Projects
         </h2>
         <div className="grid gap-8 md:grid-cols-1 w-full max-w-6xl px-4">
-            {projects.map((proj, idx) => (
+            {projects.map((proj) => (
                 <div
                     key={proj.title}
                     className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg flex flex-col p-6 transition-colors"
